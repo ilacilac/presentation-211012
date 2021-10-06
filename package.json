@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.27.2",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "playwright-chromium": "^1.15.1",
+    "slidev-theme-unicorn": "^1.0.21"
+  },
+  "name": "presentation-211012"
+}
