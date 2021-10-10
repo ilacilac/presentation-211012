@@ -10,7 +10,8 @@
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*",
     "playwright-chromium": "^1.15.1",
-    "slidev-theme-unicorn": "^1.0.21"
+    "slidev-theme-unicorn": "^1.0.21",
+    "slidev-theme-zhozhoba": "^1.0.0"
   },
   "name": "presentation-211012"
 }
