@@ -12,12 +12,14 @@ introImage: 'public/cookie.jpg'
 h1 {
   padding-bottom: 1rem;
   margin-bottom: 1rem;
-  border-bottom: 1px solid #ededed;
+  border-bottom: 1px solid #dddddd;
+}
+.intro-p {
+  margin-top: 1rem!important;
 }
 </style>
 # Cookie & Session
-
-연구개발본부 IT혁신팀 / Layla
+<p class="intro-p">연구개발본부 IT혁신팀 / Layla</p>
 
 
 ---
@@ -59,8 +61,10 @@ layout: cover
   justify-content: center;
   align-items: center;
   width: 120px;
+  margin-top: 1rem;
   font-weight: bold;
   font-size: 24px;
+  text-align: center;
   letter-spacing: 1px;
   color: #333333;
 }
@@ -71,16 +75,20 @@ layout: cover
 <div class="flex-wrap section-2">
   <div class="flex-column-2">
     <img src="public/http1.png" /><br />
-    <p>Connectionless</p>
+    <p>비연결성(Connectionless)</p>
   </div>
   <div class="flex-column-2">
     <img src="public/http2.png" /><br />
-    <p>stateless</p>
+    <p>비상태성(stateless)</p>
   </div>
 </div> 
 
 ---
-layout: cover
+layout: cover-logos
+logos: [
+  'https://img2.storyblok.com/588x0/filters::format(webp)/f/86387/x/21aa32ed18/logo-normal.svg',
+  'https://nuxtjs.org/logos/nuxt-emoji.png',
+]
 ---
 # Cookie
 
