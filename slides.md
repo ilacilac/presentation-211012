@@ -2,7 +2,7 @@
 theme: unicorn
 colorSchema: 'light'
 layout: intro
-introImage: 'public/cookie.png'
+introImage: '/cookie.png'
 ---
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
